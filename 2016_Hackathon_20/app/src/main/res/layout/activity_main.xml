@@ -9,8 +9,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="yuansyun.a2016_hackathon_20.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ITD_btn"
+        android:id="@+id/ITDBtn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Map_btn"
+        android:id="@+id/MapBtn"
+        android:layout_alignBottom="@+id/ITDBtn"
+        android:layout_toEndOf="@+id/ITDBtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CM_btn"
+        android:id="@+id/COMMBtn"
+        android:layout_alignBottom="@+id/MapBtn"
+        android:layout_toEndOf="@+id/MapBtn" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/IF_text"
+        android:textSize="50px"
+        android:id="@+id/IFText"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/ITDBtn"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IFPicture"
+        android:src="@drawable/ifpicture"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/IFText"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
