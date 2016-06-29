@@ -7,8 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="yuansyun.a2016_hackathon_20.MainActivity">
+    tools:context="yuansyun.a2016_hackathon_20.MainActivity"
+    android:touchscreenBlocksFocus="false">
 
+<<<<<<< HEAD
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,4 +53,14 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/IFText"
         android:layout_alignParentStart="true" />
+=======
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="88dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/logo" />
+>>>>>>> 3916f2be97e534f1e0a58d7b2701597b346e30a5
 </RelativeLayout>

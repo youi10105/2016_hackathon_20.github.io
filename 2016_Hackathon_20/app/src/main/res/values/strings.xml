@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <!--第一頁 資訊-->
     <string name="app_name">Information</string>
     <string name="IF_text">2017 雲林燈會</string>
@@ -20,4 +21,8 @@
     服務想要一次看完燈會的遊客，
     而虎尾高鐵特定區內300公頃的腹地，
     足以容納參觀燈會人潮。</string>string>
+=======
+    <string name="app_name">2016_Hackathon_20</string>
+    <string name="title_activity_page2">Page2</string>
+>>>>>>> 3916f2be97e534f1e0a58d7b2701597b346e30a5
 </resources>
